@@ -16,19 +16,30 @@ import math                     # makes the math.sqrt function available
 ### Problem 1
 ###
 
-print "Problem 1 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+a=1
+b=-5.86
+c=8.5408
 
+X1 =(-b -math.sqrt ((b*b) -(4*a*c)))/ (2*a) 
+X2 =(-b +math.sqrt ((b*b) -(4*a*c)))/ (2*a)
 
+print X1
+print X2
 ###
 ### Problem 2
 ###
 
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+from hw1_test import a,b,c,d,e,f
 
+print a 
+print b
+print c
+print d
+print e
+print f
 
 ###
 ### Problem 3
@@ -36,7 +47,7 @@ print "Problem 2 solution follows:"
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+((a*b)+(/c)
 
 
 ###
