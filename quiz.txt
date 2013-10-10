@@ -1,0 +1,10 @@
+# Grader : Hien Do (dohie11)
+
+
+from lab2 import n
+
+While n > 0 :
+    
+        n = n - 1
+        
+        print Hello World
