@@ -99,7 +99,8 @@ while n > 0:
 		total = total * i
 	
 	print total
-	n = n - 1
+	n = n -1
+	
 
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
