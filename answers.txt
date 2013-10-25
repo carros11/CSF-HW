@@ -1,5 +1,5 @@
-Name: ...
-Evergreen Login: ...
+Ross Carrigan
+carros11
 Computer Science Foundations
 Programming as a Way of Life
 Fall 2013
@@ -19,20 +19,23 @@ Problem 1:
 
 Problem 2:
 
-...
+GC-content: 0.3
 
 Problem 3:
+You recieve the error :     linenum = linenum + 1
+NameError: name 'linenum' is not defined
+becuase it does not  use the variable statment that is commented out.
 
-...
+Once again commenting out the defining variable statement creates a syntax error.
+
 
 Problem 4:
 
-...
-
+at-content: 0.7
 Collaboration:
 
 ...
 
 Reflection:
 
-...
+This was a simple but good Lab and i see that we build of it next week keep these comming.
