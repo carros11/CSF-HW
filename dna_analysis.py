@@ -56,6 +56,13 @@ gc_count = 0
 
 # Number of A and T nucleotides seen so far.
 at_count = 0
+a_count = 0
+t_count= 0
+g_count = 0
+c_count = 0
+total_agct = 0
+ratio = 0
+
 
 
 # for each base pair in the string,
@@ -72,6 +79,20 @@ for bp in seq:
     if bp == 'T' or bp == 'A':
         # increment the count of gc
         at_count = at_count + 1
+    if bp == 'A':
+        a_count= a_count + 1
+        
+    if bp == 'T':
+        t_count= t_count + 1
+        
+    if bp == 'G':
+        g_count= g_count + 1
+        
+    if bp == 'C':
+        c_count= c_count + 1
+    if bp == 'T' or bp == 'A'or bp=='G' or bp=='C':
+        total_agct= total_agct +1
+    
 
 
 # divide the gc_count by the total_count
@@ -79,7 +100,16 @@ gc_content = float(gc_count) / total_count
 
 # divide the at_count by the total_count
 at_content = float(at_count) / total_count
+ratio = float(at_count) / gc_count
 
 # Print the answer
 print 'GC-content:', gc_content
 print 'at-content:', at_content
+print 'a_count', a_count
+print 't_count', t_count
+print 'g_count', g_count
+print 'c_count', c_count
+print 'total count', total_count
+print 'Total agct' , total_agct
+print ' len seq', len(seq)
+print 'ratio', ratio
