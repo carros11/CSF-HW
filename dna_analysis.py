@@ -65,6 +65,7 @@ ratio = 0
 
 
 
+
 # for each base pair in the string,
 for bp in seq:
     # increment the total number of bps we've seen
@@ -92,15 +93,25 @@ for bp in seq:
         c_count= c_count + 1
     if bp == 'T' or bp == 'A'or bp=='G' or bp=='C':
         total_agct= total_agct +1
-    
+
 
 
 # divide the gc_count by the total_count
-gc_content = float(gc_count) / total_count
+gc_content = float(gc_count) / total_agct
 
 # divide the at_count by the total_count
-at_content = float(at_count) / total_count
+at_content = float(at_count) / total_agct
 ratio = float(at_count) / gc_count
+
+gcpercentage= gc_content*100
+
+if gcpercentage < 40 :
+    print "GC Class. low"
+elif gcpercentage > 60:
+    print "GC Class. high"
+else :
+    print "Gc Class. moderate"
+
 
 # Print the answer
 print 'GC-content:', gc_content

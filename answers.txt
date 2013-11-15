@@ -32,9 +32,24 @@ Once again commenting out the defining variable statement creates a syntax error
 Problem 4:
 
 at-content: 0.7
-Collaboration:
 
-...
+Problem 5:
+
+a_count 5
+t_count 2
+g_count 1
+c_count 2
+
+Problem 6:
+The reason the agct total and the count are different is becuase in the program one of the variables for the file are not difined.
+
+Problem 7:
+
+ratio 2.33333333333
+
+Problem 8:
+
+
 
 Reflection:
 
