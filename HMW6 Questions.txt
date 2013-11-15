@@ -1,0 +1,5 @@
+1.) Write a script that sorts the elements by mass.
+2.) Write a script that sorts the radio active list alphabetically.
+3.) Write a script that lists the charge all radio active elements.
+4.) Add to the previous script a section that then lists non radio active elements.
+5.) Write a script that lists all radio active metals. Try to do this with out using the sorting function.
