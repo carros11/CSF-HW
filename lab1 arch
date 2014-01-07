@@ -1,0 +1,39 @@
+string = "1" + "0"*31
+newString = ""
+length = len(string)
+
+a = 0
+negative = 0
+
+if string[0] == "1":
+    negative = 1
+    for i in string:
+        a+=1
+        if a == length:
+            newString += i
+        
+        else:
+            
+            if i == "0":
+            
+                newString += "1"
+                
+            else:
+                
+                newString += "0"
+                
+else:
+    
+     newString = string
+     
+result = int(newString, 2)
+if negative:
+    result = -result
+    
+print result
+
+
+
+
+
+
