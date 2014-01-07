@@ -1,4 +1,4 @@
-string = "1" + "0"*31
+string = "1111"
 newString = ""
 length = len(string)
 
@@ -28,11 +28,11 @@ else:
      
 result = int(newString, 2)
 if negative:
+
+
     result = -result
     
 print result
-
-
 
 
 
